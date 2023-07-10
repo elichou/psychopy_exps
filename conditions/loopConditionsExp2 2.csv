@@ -1,0 +1,4 @@
+Condition;bern_param_left_down;bern_param_left_up;bern_param_right_down;bern_param_right_up;bern_param_z;bern_param_up;bern_param_down;impact
+1;0,5;0,5;0,5;0,5;0,6;0,4;0,6;0
+2;0,2;0,8;0,8;0,2;0,6;0,4;0,6;6
+3;0,8;0,2;0,2;0,8;0,6;0,4;0,6;-6

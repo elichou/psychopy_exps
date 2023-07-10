@@ -1,0 +1,534 @@
+1.2084 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.2462 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.2474 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd581050520>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd54ee80fa0>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.2485 	EXP 	window1: mouseVisible = True
+6.2510 	EXP 	window1: mouseVisible = False
+6.2510 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.2511 	EXP 	window1: recordFrameIntervals = False
+6.3358 	EXP 	window1: recordFrameIntervals = True
+6.5010 	WARNING 	t of last frame was 20.76ms (=1/48)
+6.5480 	WARNING 	t of last frame was 22.27ms (=1/44)
+6.6140 	WARNING 	t of last frame was 22.23ms (=1/44)
+6.7219 	WARNING 	t of last frame was 21.47ms (=1/46)
+6.9138 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+7.2766 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.5348 	EXP 	Created text_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+9.5486 	EXP 	Created text_instr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+9.5747 	EXP 	Created text_instr_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+9.6045 	EXP 	Created text_instr_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr_13', opacity=1.0, ori=0.0, pos=array([0.  , 0.05]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+9.6525 	EXP 	Created image_avec = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='image_avec', opacity=1.0, ori=0.0, pos=array([-0.6,  0.1]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+9.6869 	EXP 	Created image_sans = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='image_sans', opacity=1.0, ori=0.0, pos=array([-0.4,  0.1]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+9.7982 	EXP 	Created image_victoire = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/Win.png', interpolate=True, mask=None, maskParams=None, name='image_victoire', opacity=1.0, ori=0.0, pos=array([0.63, 0.1 ]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+9.9082 	EXP 	Created image_defaite = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/Lose.png', interpolate=True, mask=None, maskParams=None, name='image_defaite', opacity=1.0, ori=0.0, pos=array([0.4, 0.1]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+9.9140 	EXP 	Created text_avec = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_avec', opacity=1.0, ori=0.0, pos=array([-0.6 ,  0.05]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+9.9161 	EXP 	Created text_sans = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_sans', opacity=1.0, ori=0.0, pos=array([-0.4 ,  0.05]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+9.9205 	EXP 	Created text_victoire = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_victoire', opacity=1.0, ori=0.0, pos=array([0.63, 0.  ]), rgb=UNKNOWN, text="C'est une victoire!", units='height', win=Window(...), wrapWidth=1)
+9.9235 	EXP 	Created text_defaite = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_defaite', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), rgb=UNKNOWN, text="C'est une défaite!", units='height', win=Window(...), wrapWidth=1)
+9.9271 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Début de l'entraînement", units='height', win=Window(...), wrapWidth=0.56)
+9.9276 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+9.9318 	EXP 	Created cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.9357 	EXP 	Created question_mark_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='question_mark_training', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Trop lent', units='height', win=Window(...), wrapWidth=1)
+9.9373 	EXP 	Created avec_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='avec_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+9.9388 	EXP 	Created sans_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='sans_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+9.9393 	EXP 	Created nombre_match_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='nombre_match_training', opacity=1.0, ori=0.0, pos=array([-0.5,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+9.9398 	EXP 	Created text_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+9.9414 	EXP 	Created cross_training = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+9.9745 	EXP 	Created avec_cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_cues', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.0082 	EXP 	Created sans_cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_cues', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.0099 	EXP 	Created joueur = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='joueur', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.0104 	EXP 	Created text_question_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question_outcome', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.0109 	EXP 	Created nombre_match_training_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='nombre_match_training_outcome', opacity=1.0, ori=0.0, pos=array([-0.5,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.0125 	EXP 	Created text_avec_fb = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_avec_fb', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+10.0130 	EXP 	Created text_sans_fb = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_sans_fb', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.0461 	EXP 	Created avec_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.0799 	EXP 	Created sans_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.0840 	EXP 	Created outcome_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='outcome_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.0846 	EXP 	Created text_resultat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_resultat', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.0860 	EXP 	Created cross_outcome_training = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross_outcome_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.0865 	EXP 	Created joueur_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='joueur_feedback', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.1017 	EXP 	window1: mouseVisible = True
+10.2995 	EXP 	Created attractiveness = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.026, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='attractiveness', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([0.9 , 0.05]), startValue=None, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+10.3001 	EXP 	Created text_question_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question_1', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.3050 	EXP 	Created validate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.    ,  0.0039, -1.    ]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='validate', opacity=1.0, ori=0.0, pos=array([ 0.4, -0.3]), rgb=UNKNOWN, text='VALIDER', units='height', win=Window(...), wrapWidth=1)
+10.3051 	EXP 	window1: mouseVisible = True
+10.3069 	EXP 	window1: mouseVisible = True
+10.3417 	EXP 	Created slider_recommandation = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.026, labelWrapWidth=None, labels=('non', 'oui'), lineColor=None, markerColor=None, name='slider_recommandation', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([0.1 , 0.05]), startValue=None, style='rating', styleTweaks=[], ticks=array([0, 1]), units='height', win=Window(...))
+10.3462 	EXP 	Created text_recommandation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_recommandation', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text="Recommandez-vous l'achat du joueur?", units='height', win=Window(...), wrapWidth=0.56)
+10.3519 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+10.3545 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Première saison', units='height', win=Window(...), wrapWidth=0.56)
+10.3827 	EXP 	Created text_instr_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr_13', opacity=1.0, ori=0.0, pos=array([0.  , 0.05]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+10.4204 	EXP 	Created image_avec = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='image_avec', opacity=1.0, ori=0.0, pos=array([-0.6,  0.1]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.4553 	EXP 	Created image_sans = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='image_sans', opacity=1.0, ori=0.0, pos=array([-0.4,  0.1]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.5590 	EXP 	Created image_victoire = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/Win.png', interpolate=True, mask=None, maskParams=None, name='image_victoire', opacity=1.0, ori=0.0, pos=array([0.63, 0.1 ]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.6629 	EXP 	Created image_defaite = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/Lose.png', interpolate=True, mask=None, maskParams=None, name='image_defaite', opacity=1.0, ori=0.0, pos=array([0.4, 0.1]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+10.6648 	EXP 	Created text_avec = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_avec', opacity=1.0, ori=0.0, pos=array([-0.6 ,  0.05]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+10.6665 	EXP 	Created text_sans = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_sans', opacity=1.0, ori=0.0, pos=array([-0.4 ,  0.05]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+10.6688 	EXP 	Created text_victoire = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_victoire', opacity=1.0, ori=0.0, pos=array([0.63, 0.  ]), rgb=UNKNOWN, text="C'est une victoire!", units='height', win=Window(...), wrapWidth=1)
+10.6711 	EXP 	Created text_defaite = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_defaite', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), rgb=UNKNOWN, text="C'est une défaite!", units='height', win=Window(...), wrapWidth=1)
+10.6716 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.6732 	EXP 	Created cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.6753 	EXP 	Created question_mark_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='question_mark_training', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Trop lent', units='height', win=Window(...), wrapWidth=1)
+10.6768 	EXP 	Created avec_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='avec_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+10.6784 	EXP 	Created sans_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='sans_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+10.6789 	EXP 	Created nombre_match_training = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='nombre_match_training', opacity=1.0, ori=0.0, pos=array([-0.5,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.6794 	EXP 	Created text_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.6808 	EXP 	Created cross_training = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.7141 	EXP 	Created avec_cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_cues', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.7480 	EXP 	Created sans_cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_cues', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.7491 	EXP 	Created joueur = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='joueur', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.7497 	EXP 	Created text_question_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question_outcome', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.7502 	EXP 	Created nombre_match_training_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='nombre_match_training_outcome', opacity=1.0, ori=0.0, pos=array([-0.5,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+10.7519 	EXP 	Created text_avec_fb = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_avec_fb', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+10.7524 	EXP 	Created text_sans_fb = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_sans_fb', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.7863 	EXP 	Created avec_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.8205 	EXP 	Created sans_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.8246 	EXP 	Created outcome_feedback = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='outcome_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+10.8252 	EXP 	Created text_resultat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_resultat', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.8266 	EXP 	Created cross_outcome_training = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross_outcome_training', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.8271 	EXP 	Created joueur_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='joueur_feedback', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.8290 	EXP 	window1: mouseVisible = True
+11.0588 	EXP 	Created attractiveness = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.026, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='attractiveness', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([0.9 , 0.05]), startValue=None, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+11.0595 	EXP 	Created text_question_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question_1', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.0614 	EXP 	Created validate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.    ,  0.0039, -1.    ]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='validate', opacity=1.0, ori=0.0, pos=array([ 0.4, -0.3]), rgb=UNKNOWN, text='VALIDER', units='height', win=Window(...), wrapWidth=1)
+11.0615 	EXP 	window1: mouseVisible = True
+11.0633 	EXP 	window1: mouseVisible = True
+11.0895 	EXP 	Created slider_recommandation = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.026, labelWrapWidth=None, labels=('non', 'oui'), lineColor=None, markerColor=None, name='slider_recommandation', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([0.1 , 0.05]), startValue=None, style='rating', styleTweaks=[], ticks=array([0, 1]), units='height', win=Window(...))
+11.0926 	EXP 	Created text_recommandation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_recommandation', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text="Recommandez-vous l'achat du joueur?", units='height', win=Window(...), wrapWidth=0.56)
+11.0964 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+11.0970 	EXP 	Created text_instr_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.1314 	EXP 	Created avec_inst_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_inst_23', opacity=1.0, ori=0.0, pos=array([-0.3, -0.3]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+11.1657 	EXP 	Created sans_instr_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_instr_23', opacity=1.0, ori=0.0, pos=array([-0.1, -0.3]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+11.2096 	EXP 	Created domicile_instr_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/Home.png', interpolate=True, mask=None, maskParams=None, name='domicile_instr_23', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.3]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+11.2484 	EXP 	Created exterieur_instr_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/Outside.png', interpolate=True, mask=None, maskParams=None, name='exterieur_instr_23', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.3]), size=array([0.1, 0.1]), texRes=128.0, units='height', win=Window(...))
+11.2502 	EXP 	Created avec_instr_23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='avec_instr_23', opacity=1.0, ori=0.0, pos=array([-0.3, -0.4]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+11.2523 	EXP 	Created sans_inst_23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='sans_inst_23', opacity=1.0, ori=0.0, pos=array([-0.1, -0.4]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+11.2541 	EXP 	Created domicile_inst_23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='domicile_inst_23', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.4]), rgb=UNKNOWN, text='domicile', units='height', win=Window(...), wrapWidth=1)
+11.2566 	EXP 	Created exterieur_inst_23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='exterieur_inst_23', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.4]), rgb=UNKNOWN, text='extérieur', units='height', win=Window(...), wrapWidth=1)
+11.2571 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.2584 	EXP 	Created cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.2605 	EXP 	Created question_mark3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='question_mark3', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Trop lent', units='height', win=Window(...), wrapWidth=1)
+11.2625 	EXP 	Created avec3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='avec3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+11.2641 	EXP 	Created sans3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='sans3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+11.2659 	EXP 	Created domicile3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='domicile3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='domicile', units='height', win=Window(...), wrapWidth=1)
+11.2677 	EXP 	Created exterieur3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='exterieur3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='extérieur', units='height', win=Window(...), wrapWidth=1)
+11.2682 	EXP 	Created observation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='observation', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.2687 	EXP 	Created text_nombre_matchs_third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_nombre_matchs_third', opacity=1.0, ori=0.0, pos=array([-0.5,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.2692 	EXP 	Created question_trial23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='question_trial23', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.2697 	EXP 	Created numero_joueur_cues_23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='numero_joueur_cues_23', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.2711 	EXP 	Created cross_fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-13.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.3042 	EXP 	Created avec_cues_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_cues_23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.3381 	EXP 	Created sans_cues_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_cues_23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.3802 	EXP 	Created domicile_cues_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image='images/Home.png', interpolate=True, mask=None, maskParams=None, name='domicile_cues_23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.4185 	EXP 	Created exterieur_cues_23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, image='images/Outside.png', interpolate=True, mask=None, maskParams=None, name='exterieur_cues_23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.4191 	EXP 	Created fb_text_choice_component = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='fb_text_choice_component', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.4235 	EXP 	Created image_outcome3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_outcome3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([3.5, 3.5]), texRes=128.0, units='cm', win=Window(...))
+11.4240 	EXP 	Created nombre_matchs_third_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='nombre_matchs_third_outcome', opacity=1.0, ori=0.0, pos=array([-0.5,  0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.4257 	EXP 	Created avec3_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='avec3_outcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='avec', units='height', win=Window(...), wrapWidth=1)
+11.4273 	EXP 	Created sans3_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='sans3_outcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='sans', units='height', win=Window(...), wrapWidth=1)
+11.4293 	EXP 	Created domicile3_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='domicile3_outcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='domicile', units='height', win=Window(...), wrapWidth=1)
+11.4311 	EXP 	Created exterieur3_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='exterieur3_outcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='extérieur', units='height', win=Window(...), wrapWidth=1)
+11.4317 	EXP 	Created resultat3_outcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='resultat3_outcome', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.4739 	EXP 	Created domicile_image23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='images/Home.png', interpolate=True, mask=None, maskParams=None, name='domicile_image23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.5121 	EXP 	Created exterieur_image23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='images/Outside.png', interpolate=True, mask=None, maskParams=None, name='exterieur_image23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.5127 	EXP 	Created question_outcome23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='question_outcome23', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.5132 	EXP 	Created text_joueur_numero = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_joueur_numero', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.5146 	EXP 	Created cross_feedback23 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-14.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='cross_feedback23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.5477 	EXP 	Created avec_image23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='images/Avec.png', interpolate=True, mask=None, maskParams=None, name='avec_image23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.5816 	EXP 	Created sans_image23 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, image='images/Sans.png', interpolate=True, mask=None, maskParams=None, name='sans_image23', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128.0, units='height', win=Window(...))
+11.5834 	EXP 	window1: mouseVisible = True
+11.7451 	EXP 	Created attractiveness = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.026, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='attractiveness', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([0.9 , 0.05]), startValue=None, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+11.7459 	EXP 	Created text_question_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_question_1', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.56)
+11.7483 	EXP 	Created validate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.    ,  0.0039, -1.    ]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='validate', opacity=1.0, ori=0.0, pos=array([ 0.4, -0.3]), rgb=UNKNOWN, text='VALIDER', units='height', win=Window(...), wrapWidth=1)
+11.7485 	EXP 	window1: mouseVisible = True
+11.7502 	EXP 	window1: mouseVisible = True
+11.7759 	EXP 	Created slider_recommandation = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.026, labelWrapWidth=None, labels=('non', 'oui'), lineColor=None, markerColor=None, name='slider_recommandation', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([0.1 , 0.05]), startValue=None, style='rating', styleTweaks=[], ticks=array([0, 1]), units='height', win=Window(...))
+11.7787 	EXP 	Created text_recommandation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_recommandation', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text="Recommandez-vous l'achat du joueur?", units='height', win=Window(...), wrapWidth=0.56)
+11.7825 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+11.7890 	EXP 	Created text_instr_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.026, italic=False, languageStyle='LTR', name='text_instr_12', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=0.56)
+11.8032 	EXP 	attractiveness: autoLog = True
+11.8032 	EXP 	attractiveness: markerPos = None
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: contrast = 1.0
+11.8032 	EXP 	attractiveness: autoLog = True
+11.8032 	EXP 	slider_recommandation: autoLog = True
+11.8032 	EXP 	slider_recommandation: markerPos = None
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: contrast = 1.0
+11.8032 	EXP 	slider_recommandation: autoLog = True
+11.8032 	EXP 	attractiveness: autoLog = True
+11.8032 	EXP 	attractiveness: markerPos = None
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: contrast = 1.0
+11.8032 	EXP 	attractiveness: autoLog = True
+11.8032 	EXP 	slider_recommandation: autoLog = True
+11.8032 	EXP 	slider_recommandation: markerPos = None
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: contrast = 1.0
+11.8032 	EXP 	slider_recommandation: autoLog = True
+11.8032 	EXP 	attractiveness: autoLog = True
+11.8032 	EXP 	attractiveness: markerPos = None
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: styleTweaks = []
+11.8032 	EXP 	attractiveness: contrast = 1.0
+11.8032 	EXP 	attractiveness: autoLog = True
+11.8032 	EXP 	slider_recommandation: autoLog = True
+11.8032 	EXP 	slider_recommandation: markerPos = None
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: styleTweaks = []
+11.8032 	EXP 	slider_recommandation: contrast = 1.0
+11.8032 	EXP 	slider_recommandation: autoLog = True
+11.8032 	EXP 	text_instr: autoDraw = True
+15.1148 	EXP 	text_instr: autoDraw = False
+15.1148 	EXP 	text_instr_2: autoDraw = True
+15.1211 	DATA 	Keypress: space
+15.2639 	DATA 	Keypress: space
+15.2673 	EXP 	text_instr_2: autoDraw = False
+15.2673 	EXP 	text_instr_3: autoDraw = True
+15.4440 	DATA 	Keypress: space
+15.4503 	EXP 	text_instr_3: autoDraw = False
+15.4503 	EXP 	text_instr_13: autoDraw = True
+15.4503 	EXP 	image_avec: autoDraw = True
+15.4503 	EXP 	image_sans: autoDraw = True
+15.4503 	EXP 	image_victoire: autoDraw = True
+15.4503 	EXP 	image_defaite: autoDraw = True
+15.4503 	EXP 	text_avec: autoDraw = True
+15.4503 	EXP 	text_sans: autoDraw = True
+15.4503 	EXP 	text_victoire: autoDraw = True
+15.4503 	EXP 	text_defaite: autoDraw = True
+15.7567 	DATA 	Keypress: space
+15.7644 	EXP 	text_instr_13: autoDraw = False
+15.7644 	EXP 	image_avec: autoDraw = False
+15.7644 	EXP 	image_sans: autoDraw = False
+15.7644 	EXP 	image_victoire: autoDraw = False
+15.7644 	EXP 	image_defaite: autoDraw = False
+15.7644 	EXP 	text_avec: autoDraw = False
+15.7644 	EXP 	text_sans: autoDraw = False
+15.7644 	EXP 	text_victoire: autoDraw = False
+15.7644 	EXP 	text_defaite: autoDraw = False
+15.7644 	EXP 	text_3: autoDraw = True
+17.7754 	EXP 	Imported conditions/loopConditions.csv as conditions, 1 conditions, 4 params
+17.7763 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+17.7769 	EXP 	New trial (rep=0, index=0): OrderedDict([('Condition', 25), ('bern_param_play', 0.9), ('bern_param_not_play', 0.1), ('dP', 0.8)])
+17.7887 	EXP 	text_3: autoDraw = False
+17.7887 	EXP 	text_4: height = 0.026
+17.7887 	EXP 	text_4: height = 0.026
+17.7887 	EXP 	text_4: height = 0.026
+17.7887 	EXP 	text_4: text = 'Joueur Y'
+17.7887 	EXP 	text_4: autoDraw = True
+19.7771 	EXP 	Imported conditions/CounterBalancedKeys.csv as conditions, 1 conditions, 13 params
+19.7777 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+19.7783 	EXP 	New trial (rep=0, index=0): OrderedDict([('Condition', 3), ('avec_key', 'left'), ('sans_key', 'right'), ('dom_key', 'down'), ('ext_key', 'up'), ('avec_pos_text', '(-0.2,-0.1)'), ('sans_pos_text', '(0.2,-0.1)'), ('dom_pos_text', '(0,-0.1)'), ('ext_pos_text', '(0,0.1)'), ('avec_pos_image', '(-0.2,0.0)'), ('sans_pos_image', '(0.2,0.0)'), ('ext_pos_image', '(0.0, -0.1)'), ('dom_pos_image', '(0.0, 0.1)')])
+19.7867 	EXP 	text_4: autoDraw = False
+19.7867 	EXP 	cross: autoDraw = True
+20.1451 	EXP 	cross: autoDraw = False
+20.1451 	EXP 	cross: autoDraw = False
+20.1451 	EXP 	nombre_match_training: height = 0.026
+20.1451 	EXP 	nombre_match_training: height = 0.026
+20.1451 	EXP 	nombre_match_training: height = 0.026
+20.1451 	EXP 	nombre_match_training: text = 'match n° 1'
+20.1451 	EXP 	text_question: height = 0.026
+20.1451 	EXP 	text_question: height = 0.026
+20.1451 	EXP 	text_question: height = 0.026
+20.1451 	EXP 	text_question: text = "Question: Voulez vous faire jouer l'équipe avec ou sans le joueur C ?"
+20.1451 	EXP 	joueur: height = 0.026
+20.1451 	EXP 	joueur: height = 0.026
+20.1451 	EXP 	joueur: height = 0.026
+20.1451 	EXP 	joueur: text = 'joueur C'
+20.1451 	EXP 	avec_training: autoDraw = True
+20.1451 	EXP 	sans_training: autoDraw = True
+20.1451 	EXP 	nombre_match_training: autoDraw = True
+20.1451 	EXP 	text_question: autoDraw = True
+20.1451 	EXP 	cross_training: autoDraw = True
+20.1451 	EXP 	avec_cues: autoDraw = True
+20.1451 	EXP 	sans_cues: autoDraw = True
+20.1451 	EXP 	joueur: autoDraw = True
+21.4191 	DATA 	Keypress: right
+21.4225 	EXP 	question_mark_training: autoDraw = False
+21.4225 	EXP 	avec_training: autoDraw = False
+21.4225 	EXP 	sans_training: autoDraw = False
+21.4225 	EXP 	nombre_match_training: autoDraw = False
+21.4225 	EXP 	text_question: autoDraw = False
+21.4225 	EXP 	cross_training: autoDraw = False
+21.4225 	EXP 	avec_cues: autoDraw = False
+21.4225 	EXP 	sans_cues: autoDraw = False
+21.4225 	EXP 	joueur: autoDraw = False
+21.4225 	EXP 	text_question_outcome: height = 0.026
+21.4225 	EXP 	text_question_outcome: height = 0.026
+21.4225 	EXP 	text_question_outcome: height = 0.026
+21.4225 	EXP 	text_question_outcome: text = "Question: Voulez vous faire jouer l'équipe avec ou sans le joueur C ?"
+21.4225 	EXP 	nombre_match_training_outcome: height = 0.026
+21.4225 	EXP 	nombre_match_training_outcome: height = 0.026
+21.4225 	EXP 	nombre_match_training_outcome: height = 0.026
+21.4225 	EXP 	nombre_match_training_outcome: text = 'match n° 1'
+21.4225 	EXP 	text_sans_fb: height = 0.026
+21.4225 	EXP 	text_sans_fb: height = 0.026
+21.4225 	EXP 	text_sans_fb: height = 0.026
+21.4225 	EXP 	text_sans_fb: text = 'sans'
+21.4225 	EXP 	avec_feedback: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4225 	EXP 	avec_feedback: texRes = 128.0
+21.4225 	EXP 	sans_feedback: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4225 	EXP 	sans_feedback: texRes = 128.0
+21.4225 	EXP 	text_resultat: height = 0.026
+21.4225 	EXP 	text_resultat: height = 0.026
+21.4225 	EXP 	text_resultat: height = 0.026
+21.4225 	EXP 	text_resultat: text = "C'est une défaite!"
+21.4225 	EXP 	joueur_feedback: height = 0.026
+21.4225 	EXP 	joueur_feedback: height = 0.026
+21.4225 	EXP 	joueur_feedback: height = 0.026
+21.4225 	EXP 	joueur_feedback: text = 'joueur C'
+21.4225 	EXP 	text_question_outcome: autoDraw = True
+21.4225 	EXP 	nombre_match_training_outcome: autoDraw = True
+21.4225 	EXP 	text_avec_fb: autoDraw = True
+21.4225 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4225 	EXP 	text_sans_fb: autoDraw = True
+21.4225 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4225 	EXP 	avec_feedback: autoDraw = True
+21.4225 	EXP 	sans_feedback: autoDraw = True
+21.4225 	EXP 	cross_outcome_training: autoDraw = True
+21.4225 	EXP 	joueur_feedback: autoDraw = True
+21.4277 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4277 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4329 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4329 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4374 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4374 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4488 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4488 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4544 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4544 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4589 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4589 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4664 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4664 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4709 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4709 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4834 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4834 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4883 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4883 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4928 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4928 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4974 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.4974 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5104 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5104 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5311 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5311 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5359 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5359 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5408 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5408 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5524 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5524 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5580 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5580 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5630 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5630 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5745 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5745 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5809 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5809 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5927 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5927 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5981 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.5981 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6031 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6031 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6153 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6153 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6372 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6372 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6426 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6426 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6482 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6482 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6594 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6594 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6654 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6654 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6778 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6778 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6996 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.6996 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7050 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7050 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7104 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7104 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7218 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7218 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7278 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7278 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7408 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7408 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7617 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7617 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7671 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7671 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7726 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7726 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7839 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7839 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7899 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.7899 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8028 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8028 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8247 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8247 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8305 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8305 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8358 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8358 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8472 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8472 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8525 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8525 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8652 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.8652 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9008 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9008 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9008 	EXP 	outcome_feedback: autoDraw = True
+21.9008 	EXP 	text_resultat: autoDraw = True
+21.9321 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9321 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9637 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9637 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9637 	EXP 	cross_outcome_training: autoDraw = False
+21.9940 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+21.9940 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.0245 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.0245 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.0551 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.0551 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.0861 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.0861 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.1170 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.1170 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.1472 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.1472 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.1776 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.1776 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.2078 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.2078 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.2391 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.2391 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.2730 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.2730 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3042 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3042 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3353 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3353 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3665 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3665 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3975 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.3975 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.4286 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.4286 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.4597 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.4597 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.4907 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.4907 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.5217 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.5217 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.5527 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.5527 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.5836 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.5836 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.6136 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.6136 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.6438 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.6438 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.6741 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.6741 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7048 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7048 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7357 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7357 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7667 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7667 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7977 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.7977 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.8287 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.8287 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.8599 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.8599 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.8910 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.8910 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.9219 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.9219 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.9528 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.9528 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.9839 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+22.9839 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.0149 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.0149 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.0458 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.0458 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.0767 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.0767 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.1076 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.1076 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.1385 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.1385 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.1693 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.1693 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2003 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2003 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2305 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2305 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2608 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2608 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2913 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.2913 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.3224 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.3224 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.3533 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.3533 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.3844 	EXP 	text_avec_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.3844 	EXP 	text_sans_fb: foreColor = <psychopy.colors.Color: none, alpha=0.0>
+23.4386 	DATA 	Keypress: escape
+23.4473 	EXP 	text_question_outcome: autoDraw = False
+23.4473 	EXP 	nombre_match_training_outcome: autoDraw = False
+23.4473 	EXP 	text_avec_fb: autoDraw = False
+23.4473 	EXP 	text_sans_fb: autoDraw = False
+23.4473 	EXP 	avec_feedback: autoDraw = False
+23.4473 	EXP 	sans_feedback: autoDraw = False
+23.4473 	EXP 	outcome_feedback: autoDraw = False
+23.4473 	EXP 	text_resultat: autoDraw = False
+23.4473 	EXP 	cross_outcome_training: autoDraw = False
+23.4473 	EXP 	joueur_feedback: autoDraw = False
+23.4473 	EXP 	attractiveness: markerPos = None
+23.4473 	EXP 	attractiveness: markerPos = None
+23.4473 	EXP 	text_question_1: height = 0.026
+23.4473 	EXP 	text_question_1: height = 0.026
+23.4473 	EXP 	text_question_1: height = 0.026
+23.4473 	EXP 	text_question_1: text = "Évaluation de l'impact du joueur C\n\n Attribuez une note à l'impact du joueur C sur le match en utilisant une échelle de -10 (le joueur contribue à la défaite de l'équipe), 0 (aucun impact sur le match) à 10 (le joueur contribue à la victoire de l'équipe).\n Cliquez sur valider pour confirmer."
+23.4473 	EXP 	slider_recommandation: markerPos = None
+23.4473 	EXP 	slider_recommandation: markerPos = None
+23.4473 	EXP 	attractiveness: autoDraw = True
+23.4473 	EXP 	text_question_1: autoDraw = True
+23.4473 	EXP 	validate: autoDraw = True
+23.4473 	EXP 	slider_recommandation: autoDraw = True
+23.4473 	EXP 	text_recommandation: autoDraw = True
+24.1742 	EXP 	window1: mouseVisible = True

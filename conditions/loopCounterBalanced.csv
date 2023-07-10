@@ -1,0 +1,3 @@
+text_instruction;is_task_obs;;;
+"""Troisième et dernière saison:"" + ""\n Pour rappel, lors de cette troisième saison, les règles sont similaires à la saison précédente. À la seule différence que le coach adjoint pour s'entraîner, sera entièrement décisionnaire pour un certain nombre de matchs tiré au sort.""";1;;;
+"""Deuxième saison"" + ""\n L'endroit où joue l'équipe et le nouveau joueur influe sur les performances.""+ ""\n Pour rappel, dans cette deuxième saison, tu choisiras soit:""+ ""\n - de faire jouer ou non le nouveau joueur""+""\n soit de fiare jouer l'équipe à domicile ou à l'extérieur""+""\n La fédération de volley a fait évoluer les règles et un coach adjoint t'assistera et prendra la décision complémentaire à chaque match.""";0;;;
