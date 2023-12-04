@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Thu Nov  9 15:18:59 2023
+    on Tue Nov 28 14:26:10 2023
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -3300,7 +3300,7 @@ for thisFirstRun in firstRun:
         routineTimer.addTime(-2.000000)
     
     # set up handler to look after randomisation of conditions etc
-    firstBlocks = data.TrialHandler(nReps=3.0, method='sequential', 
+    firstBlocks = data.TrialHandler(nReps=30.0, method='sequential', 
         extraInfo=expInfo, originPath=-1,
         trialList=data.importConditions('conditions/CounterBalancedKeys.csv', selection=[np.random.randint(1, 4)]),
         seed=None, name='firstBlocks')
@@ -3918,7 +3918,7 @@ for thisFirstRun in firstRun:
             routineTimer.addTime(-2.000000)
         thisExp.nextEntry()
         
-    # completed 3.0 repeats of 'firstBlocks'
+    # completed 30.0 repeats of 'firstBlocks'
     
     
     # --- Prepare to start Routine "question" ---
